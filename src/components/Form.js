@@ -37,6 +37,7 @@ function Form() {
         <button type="submit">Submit</button>
       </form>
       {/* conditionally render error messages */}
+      {/* to capture errors */}
       {errors.length > 0
         ? errors.map((error, index) => (
             <p key={index} style={{ color: "red" }}>
